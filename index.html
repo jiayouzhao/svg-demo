@@ -1,0 +1,105 @@
+<!DOCTYPP html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            background-color:#FFB701;
+        }
+        svg path{
+            fill:transparent;
+        }
+        svg path{
+            animation: pathShow 3s forwards ;
+        }
+        svg path:nth-child(7){
+            animation: eye 3s forwards;
+        }
+        svg path:nth-child(8){
+            animation: eye 3s forwards;
+        }
+        @keyframes pathShow{
+            0%{
+                stroke-dasharray: 0 100%;
+                opacity:0.6;
+            }
+            90%{
+                opacity:1;
+                stroke-dasharray:100% 0;
+                fill:transparent;
+            }
+            95%{
+                opacity:1;
+                stroke-dasharray: 100% 0;
+                fill:#000;
+            }
+            100%{
+                opacity:1;
+                stroke-dasharray: 100% 0;
+                fill:#000;
+            }
+        }
+        @keyframes eye{
+            0%{
+                stroke-dasharray: 0 100%;
+                opacity:0.6;
+            }
+            90%{
+                opacity:1;
+                stroke-dasharray:100% 0;
+                fill:transparent;
+            }
+            95%{
+                opacity:1;
+                stroke-dasharray: 100% 0;
+                fill:url(#linear);;
+            }
+            100%{
+                opacity:1;
+                stroke-dasharray: 100% 0;
+                fill:url(#linear);;
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg version="1.1" id="daye" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="660px" height="500px" viewBox="0 0 720 809" enable-background="new 0 0 720 809" xml:space="preserve" class="daye-svg">
+     <defs>
+    <linearGradient id="linear" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%"   stop-color="red" stop-opacity="0.75"/>
+        <stop offset="100%" stop-color="blue" stop-opacity="0.5"/>
+    </linearGradient>
+</defs>
+<path fill-rule="evenodd" stroke="#000" clip-rule="evenodd" fill="none" d="M196,316c0,0-37.477-165.377,41-172l10,33
+    C247,177,216.989,179.259,196,316z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000" fill="none" d="M256,166c0,0,11.601-2.672,21,1c0,0-2.919-93.241,83-95
+    c0,0-78.405,4.29-72,98l18,4c0,0-2.21-67.958,59-76c0,0-57.433,12.471-48,78l13,4c0,0,9.769-57.249,65-49c0,0-47.896-2.52-57,50
+    c0,0,64.669,16.054,102-11c0,0,32.323-24.28,57-46c0,0,12.86-20.755,20-16l19,5c0,0-64.957-85.656-157-74
+    C379,39,234.385,36.381,256,166z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000" fill="none" d="M506,132c0,0-20.76,28.179-45,40c0,0,35.545,5.688,60,145
+    C521,317,566,232.897,506,132z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000" d="M234,421c0,0,19.971,27.186,33,21c0,0,12.925-0.639,21-6
+    c0,0,29.128-15.111,45-18c0,0,10.625-4.167,28,12c0,0,12.227-16.287,28-13c0,0,43.384,18.833,64,24c0,0,17.056,2.829,31-18
+    c0,0,7.3,25.874-15,46c0,0-15.988,18.06-59,9c0,0-49.208-26.795-109,2C301,480,224.166,487.77,234,421z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" stroke="#000" fill="none" d="M209,283c0,0,79.404-22.671,133,5c0,0,37.927,0.705,52-6
+    c0,0,61.927-18.458,118,1v25c0,0-9.284,3.75-10,27c0,0-8.312,41.992-28,44c0,0-32.257,7.663-59,3c0,0-30.174,0.352-38-44
+    c0,0-12.064-54.957-36,1c0,0-2.064,44.523-53,44c0,0-69.651,12.971-68-47c0,0-4.569-22.66-11-27V283z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="url(#linear)" stroke="#000" d="M230,299c0,0,31.219-28.678,107,0c0,0,6.189,57.971-34,75
+    c0,0-70.507,15.09-71-32C232,342,222.72,312.107,230,299z"/>
+<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000" d="M384,302c0,0,39.258-33.678,105-4c0,0,18.187,28.213-13,73
+    c0,0-65.66,14.225-79-12C397,359,378.904,328.214,384,302z" />
+<path fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#000" d="M204,398c0,0,13.307,29.73,28,38c0,0,12.032,72.715,84,43
+    c0,0,16.765,12.935,96,2c0,0,70.311,12.922,78-42c0,0,21.777-27.046,28-46c0,0,8.183,56.004,28,78c0,0,12.223,21.428,11,45
+    c0,2.866-9.566,14.033-14,36c0,0-9.9-21.027-19-35c0,0,31.976,84.137-9,144l-27,22c0,0,3.179-17.843,5-38c0,0-14.896,71.175-51,90
+    c0,0-25.745,10.309-32,16c0,0-13.968-17.414-18-27c0,0,9.235,28.86,13,34c0,0-20.434,0.644-32-53c0,0-13.733,11.573,25,80
+    c0,0-46.717-14.709-42-86c0,0-16.725,35.07,13,84c0,0-76.673-27.181-102-107c0,0,0.41,19.577,13,53c0,0-54.351-31.095-51-73
+    c0,0-0.673-44.652,6-68c0,0-14.442,22.676-15,38c0,0-11.854-26.469-21-42c0,0-23.179-12.601-14-91C185,493,201.116,427.82,204,398z"
+    />
+</svg>
+    <script>
+        
+    </script>
+</body>
+</html>
